@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Conversione.css">
+    <link rel="icon" href="https://thumbs.dreamstime.com/b/icona-di-conversione-valuta-120823108.jpg" type="image/png">
+    <title>Convertitore di Valuta</title>
+</head>
+<body>
+    <center>
+        <div class="ContenitoreTotale">
+            <h2>Convertitore di Valuta</h2>
+            <input type="number" id="Qunatità" placeholder="Inserisci importo" />
+            <select id="SceltaValutaIniziale">
+                <option value="EUR">EURO €</option>
+                <option value="USD">DOLLAR $</option>
+                <option value="GBP">STERLING £</option>
+                <option value="JPY">YEN ¥</option>
+            </select>
+            <select id="SceltaValutaFinale">
+                <option value="EUR">EURO €</option>
+                <option value="USD">DOLLAR $</option>
+                <option value="GBP">STERLING £</option>
+                <option value="JPY">YEN ¥</option>
+            </select>
+            <button onclick="ConvertitoreMoney()">Converti</button>
+            <h3 id="RisultatoConvertitore"></h3>
+        </div>
+    </center>
+    <script src="Conversione.js"></script>
+</body>
+</html>
